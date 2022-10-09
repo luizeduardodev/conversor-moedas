@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <title>Conversor de Moedas</title>
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+
+    <body>
+        <main>
+            <section class="home-section">
+                <div class="wrapper">
+                    <h1 class="page-title">Conversor de moedas</h1>
+                    <p class="page-subtitle">Descubra os valores em real R$</p>
+                    <img
+                        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+                        class="page-logo"
+                        alt="Logo Imersão Dev"
+                    />
+
+                    <form>
+                        <div class="input">
+                            <label for="moeda">Insira o valor</label>
+                            <input type="number" id="valor" size="2" />
+                        </div>
+
+                        <div class="container-buttons">
+                            <button type="submit" id="btn-real">
+                                Converter para Real
+                            </button>
+
+                            <button type="submit" id="btn-dolar">
+                                Converter para Dolar
+                            </button>
+
+                            <button type="submit" id="btn-euro">
+                                Converter para Euro
+                            </button>
+                        </div>
+                    </form>
+
+                    <h2 id="valorConvertido"></h2>
+
+                    <a href="https://alura.com.br/" target="_blank">
+                        <img
+                            src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+                            alt="Logo da alura"
+                            class="alura-logo"
+                        />
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <script src="./assets/js/index.js"></script>
+    </body>
+</html>
